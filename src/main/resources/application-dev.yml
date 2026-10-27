@@ -10,7 +10,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://keycloak:8080/realms/stock-relame
+          issuer-uri: http://keycloak:8080/realms/stock-realm
 
   cloud:
     gateway:
