@@ -10,7 +10,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://keycloak:8080/realms/stock-market
+          issuer-uri: http://keycloak:8080/realms/stock-relame
 
   cloud:
     gateway:
@@ -64,6 +64,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://sms-registry-server:8761/eureka
+    enabled: false  
 
 springdoc:
   swagger-ui:
